@@ -1,23 +1,46 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavLink from "./NavLink";
-import { FiMenu } from "react-icons/fi";
 import MobileMenu from "./MobileMenu";
+
+const Y_OFFSET = 70;
 
 const Navbar = () => {
   const [showMobile, setShowMobile] = useState(false);
+  const [showBackground, setShowBackground] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= Y_OFFSET) {
+        setShowBackground(true);
+      } else {
+        setShowBackground(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="fixed w-full bg-white shadow-md font-bold md:px-24">
-      <div className="flex flex-row justify-between items-center py-4 px-8">
+    <div
+      className={`z-40 fixed w-screen transition duration-700 ${
+        showBackground ? "bg-white" : "bg-slate-800/10 py-4"
+      } shadow-md font-bold px-0 md:px-4 lg:px-20 xl:px-52`}
+    >
+      <div className="flex flex-row justify-between items-center py-4 px-4 md:px-8">
         <div>
           <span className="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
             {`<`}Kacper Tokaj {`/>`}
           </span>
         </div>
         <div className="hidden md:flex flex-row gap-8">
-          <NavLink name="About" />
-          <NavLink name="Workshop" />
-          <NavLink name="Contact" />
+          <NavLink name="Home" navigateTo="home" />
+          <NavLink name="About" navigateTo="about" />
+          <NavLink name="Workshop" navigateTo="workshop" />
+          <NavLink name="Contact" navigateTo="contact" />
         </div>
         <div className="md:hidden flex relative">
           <button

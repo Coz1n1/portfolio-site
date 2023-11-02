@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "ChillCoffee",
+    "description": "As a coffee fan making this site was pure pleasure. This application shows the exemplary look of the own coffeehouse. It lets us add and remove products from the cart with posibility of filter them by their own coffee category. Also it delivers fun facts about coffee at all and shows some recipes to make drink by your own. Whole app is built with react + typescript and tailwind for styling. I think this is a good example of using React Hooks.",
+    "technologies": ["React", "TypeScript", "Tailwind", "Context Api"],
+    "live": "https://main--effulgent-sherbet-9d995c.netlify.app/",
+    "github": "https://github.com/Coz1n1/chill-coffee",
+    "imgs": [
+      "/imgs/apps-previews/chillcoffee/chillcoffee-first.png",
+      "/imgs/apps-previews/chillcoffee/chillcoffee-second.png",
+      "/imgs/apps-previews/chillcoffee/chillcoffee-third.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Coinpack",
+    "description": "If I remember correctly it was one of my first application with adding typescript to my react application and because of that I had to solve first problems related to this - in the end it was very good expierence and I've been using typescript since then. App is using coinstats api to deliver required data about cryptocurrencies and shows us the most popular ones. We can filter them by name (with small letters) and set the size of data ammount that we want to see. The contact component is also connected with emailjs.",
+    "technologies": ["React", "TypeScript", "CSS"],
+    "live": "https://profound-cendol-530796.netlify.app/",
+    "github": "https://github.com/Coz1n1/coin-pack",
+    "imgs": [
+      "/imgs/apps-previews/coinpack/coinpack-first.png",
+      "/imgs/apps-previews/coinpack/coinpack-second.png",
+      "/imgs/apps-previews/coinpack/coinpack-third.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "CarsStack",
+    "description": "After watching tones of tutorials the time has come to build some projects. That's why the carstack was built. It's one of my first projects that I published to github and I think the effect is very decent. It's the landing page of car rental site with contact form which is connected with emailjs.",
+    "technologies": ["React", "CSS"],
+    "live": "https://main--curious-malasada-7485bc.netlify.app/",
+    "github": "https://github.com/Coz1n1/cars-stack",
+    "imgs": [
+      "/imgs/apps-previews/carstack/carstack-first.png",
+      "/imgs/apps-previews/carstack/carstack-second.png",
+      "/imgs/apps-previews/carstack/carstack-third.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "WeatherMapper",
+    "description": "Simple application using weather API. Type name of the city = get actual weather.",
+    "technologies": ["React", "TypeScript", "Tailwind"],
+    "live": "https://chic-lokum-2b6e8a.netlify.app/",
+    "github": "https://github.com/Coz1n1/weather-mapper",
+    "imgs": [
+      "/imgs/apps-previews/weather/weather-first.png",
+      "/imgs/apps-previews/weather/weather-second.png",
+      "/imgs/apps-previews/weather/weather-third.png"
+    ]
+  }
+]

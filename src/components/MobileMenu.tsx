@@ -6,19 +6,16 @@ interface MobileMenuProps {
 }
 
 const MobileMenu: FC<MobileMenuProps> = ({ visible }) => {
-  // if (!visible) {
-  //   return null;
-  // }
-
   return (
     <div
-      className={`text-2xl absolute w-screen h-[calc(100vh-64px)] flex flex-col top-16 bg-white border-2 px-8 justify-between py-2 rounded-md transition-all duration-500 ${
+      className={`z-44 text-2xl absolute w-screen h-[calc(100vh-64px)] flex flex-col top-16 bg-white border-2 px-8 justify-between py-2 rounded-md transition-all duration-500 ${
         visible ? "translate-x-0" : "translate-x-full"
       }`}
     >
-      <NavLink name="About" />
-      <NavLink name="Workshop" />
-      <NavLink name="Contact" />
+      <NavLink name="Home" navigateTo="home" />
+      <NavLink name="About" navigateTo="about" />
+      <NavLink name="Workshop" navigateTo="workshop" />
+      <NavLink name="Contact" navigateTo="contact" />
     </div>
   );
 };
