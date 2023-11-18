@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect, useRef } from "react";
+import React, { FC, useRef } from "react";
 import { ProjectType } from "../types";
 import { useInView } from "framer-motion";
 
@@ -9,20 +9,6 @@ interface ProjectProps {
 const Project: FC<ProjectProps> = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      if (currentIndex === data.imgs.length - 1) {
-        setCurrentIndex(0);
-      } else {
-        setCurrentIndex(currentIndex + 1);
-      }
-      console.log(currentIndex);
-    }, 2000);
-
-    return () => clearInterval(intervalId);
-  }, [currentIndex, data.imgs.length]);
 
   return (
     <div
@@ -71,7 +57,7 @@ const Project: FC<ProjectProps> = ({ data }) => {
         <div className="w-full h-full flex items-center justify-center py-4">
           <a href={data.live} target="#blank">
             <img
-              src={data.imgs[currentIndex]}
+              src={data.imgs[0]}
               alt=""
               className="w-full rounded-lg transition-all shadow-lg shadow-zinc-500"
             />
