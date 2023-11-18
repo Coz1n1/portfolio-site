@@ -2,53 +2,53 @@
   {
     "id": 1,
     "title": "ChillCoffee",
-    "description": "As a coffee fan making this site was pure pleasure. This application shows the exemplary look of the own coffeehouse. It lets us add and remove products from the cart with posibility of filter them by their own coffee category. Also it delivers fun facts about coffee at all and shows some recipes to make drink by your own. Whole app is built with react + typescript and tailwind for styling. I think this is a good example of using React Hooks.",
+    "description": "As a coffee fan making this site was pure pleasure. This application shows the exemplary look of the own coffeehouse. It lets us add and remove products from the cart with posibility of filter them by their own coffee category. Also it delivers fun facts about coffee at all and shows some recipes to make drink by your own. Whole app is built with react + typescript and tailwind for styling.",
     "technologies": ["React", "TypeScript", "Tailwind", "Context Api"],
     "live": "https://main--effulgent-sherbet-9d995c.netlify.app/",
     "github": "https://github.com/Coz1n1/chill-coffee",
-    "imgs": [
-      "/imgs/apps-previews/chillcoffee/chillcoffee-first.png",
-      "/imgs/apps-previews/chillcoffee/chillcoffee-second.png",
-      "/imgs/apps-previews/chillcoffee/chillcoffee-third.png"
-    ]
+    "imgs": ["/imgs/apps-previews/chillcoffee/chillcoffee-first.png"]
   },
   {
     "id": 2,
     "title": "Coinpack",
     "description": "If I remember correctly it was one of my first application with adding typescript to my react application and because of that I had to solve first problems related to this - in the end it was very good expierence and I've been using typescript since then. App is using coinstats api to deliver required data about cryptocurrencies and shows us the most popular ones. We can filter them by name (with small letters) and set the size of data ammount that we want to see. The contact component is also connected with emailjs.",
-    "technologies": ["React", "TypeScript", "CSS"],
+    "technologies": ["React", "TypeScript", "CSS", "API", "Emailjs"],
     "live": "https://profound-cendol-530796.netlify.app/",
     "github": "https://github.com/Coz1n1/coin-pack",
-    "imgs": [
-      "/imgs/apps-previews/coinpack/coinpack-first.png",
-      "/imgs/apps-previews/coinpack/coinpack-second.png",
-      "/imgs/apps-previews/coinpack/coinpack-third.png"
-    ]
+    "imgs": ["/imgs/apps-previews/coinpack/coinpack-first.png"]
   },
   {
     "id": 3,
-    "title": "CarsStack",
-    "description": "After watching tones of tutorials the time has come to build some projects. That's why the carstack was built. It's one of my first projects that I published to github and I think the effect is very decent. It's the landing page of car rental site with contact form which is connected with emailjs.",
-    "technologies": ["React", "CSS"],
-    "live": "https://main--curious-malasada-7485bc.netlify.app/",
-    "github": "https://github.com/Coz1n1/cars-stack",
-    "imgs": [
-      "/imgs/apps-previews/carstack/carstack-first.png",
-      "/imgs/apps-previews/carstack/carstack-second.png",
-      "/imgs/apps-previews/carstack/carstack-third.png"
-    ]
+    "title": "Good Notes",
+    "description": "This is a fullstack application in which you can store daily notes in user's personal database. We can mark every note as completed and than restore it when for example we forgot to do something from it. The left panel is resizable after holding the orange line (my favourite future in it) or you can completely collapse it after clicking button in the top right corner.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Express.js",
+      "shadcn/ui"
+    ],
+    "live": "https://notes-app-jt9p.vercel.app/",
+    "github": "https://github.com/Coz1n1/notes-app",
+    "imgs": ["/imgs/apps-previews/notes/notes-first.png"],
+    "bonusInfo": "Already existing user: test, password: test."
   },
   {
     "id": 4,
+    "title": "CarsStack",
+    "description": "It's one of my first projects that I published to github. It's the landing page of car rental site with contact form which is connected with emailjs.",
+    "technologies": ["React", "CSS", "Emailjs"],
+    "live": "https://main--curious-malasada-7485bc.netlify.app/",
+    "github": "https://github.com/Coz1n1/cars-stack",
+    "imgs": ["/imgs/apps-previews/carstack/carstack-first.png"]
+  },
+  {
+    "id": 5,
     "title": "WeatherMapper",
     "description": "Simple application using weather API. Type name of the city = get actual weather.",
-    "technologies": ["React", "TypeScript", "Tailwind"],
+    "technologies": ["React", "TypeScript", "Tailwind", "API"],
     "live": "https://chic-lokum-2b6e8a.netlify.app/",
     "github": "https://github.com/Coz1n1/weather-mapper",
-    "imgs": [
-      "/imgs/apps-previews/weather/weather-first.png",
-      "/imgs/apps-previews/weather/weather-second.png",
-      "/imgs/apps-previews/weather/weather-third.png"
-    ]
+    "imgs": ["/imgs/apps-previews/weather/weather-first.png"]
   }
 ]

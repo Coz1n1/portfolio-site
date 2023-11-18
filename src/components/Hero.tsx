@@ -19,7 +19,7 @@ const Hero = () => {
               : "translate-x-[500px] opacity-0"
           }`}
         >
-          <div className="w-64 lg:w-80 animate-liquid">
+          <div className="w-64 lg:w-72 animate-liquid">
             <img
               src={require("../assets/pracuj.jpg")}
               alt="profile"
@@ -35,19 +35,19 @@ const Hero = () => {
           }`}
         >
           <div className="w-full text-center">
-            <span className="text-3xl md:text-5xl font-bold">
+            <span className="text-3xl md:text-4xl font-bold">
               Hi, I'm Kacper
             </span>
           </div>
           <div className="w-full text-center">
-            <span className="text-4xl md:text-6xl font-bold text-emerald-500">
+            <span className="text-4xl md:text-5xl font-bold text-emerald-500">
               Frontend Developer
             </span>
           </div>
           <div className="text-center w-auto max-w-[700px] px-2">
-            <p className="text-xl md:text-2xl text-zinc-700">
-              Trying to implement ideas into life. Love to learn and make my
-              projects with nice functionality and good user experience.
+            <p className="text-xl text-zinc-700">
+              I implement ideas into life. Love to learn while doing projects
+              with nice functionality and good user experience.
             </p>
           </div>
           <div className="flex items-center justify-center w-full lg:px-20 gap-8">
@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="mt-4 text-center w-full">
             <a href="#about">
               <button className="px-4 py-2 bg-inherit border-2 border-sky-500 rounded-lg scale-100 text-xl font-extrabold transition-all duration-200 hover:bg-sky-500 hover:scale-125 hover:text-white hover:rotate-6">
-                Know More
+                Learn More About Me
               </button>
             </a>
           </div>

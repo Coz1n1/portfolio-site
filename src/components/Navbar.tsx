@@ -27,8 +27,8 @@ const Navbar = () => {
   return (
     <div
       className={`z-40 fixed w-screen transition duration-700 ${
-        showBackground ? "bg-white" : "bg-slate-800/10 py-4"
-      } shadow-md font-bold px-0 md:px-4 lg:px-20 xl:px-52`}
+        showBackground ? "bg-white" : "bg-white py-4"
+      } shadow-md font-bold px-0 md:px-4 lg:px-20`}
     >
       <div className="flex flex-row justify-between items-center py-4 px-4 md:px-8">
         <div>

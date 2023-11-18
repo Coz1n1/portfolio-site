@@ -23,7 +23,7 @@ const About = () => {
             alt="about holder"
           />
         </div>
-        <div className="w-full flex flex-col items-center justify-center px-4 md:px-12 lg:px-32 xl:px-60 overflow-hidden bg-slate-800 py-20 gap-8">
+        <div className="w-full flex flex-col items-center justify-center px-4 md:px-12 lg:px-24 2xl:px-60 overflow-hidden bg-slate-800 py-20 gap-8">
           <div className="text-left w-full">
             <span className="text-5xl text-emerald-500 font-bold">
               About me
@@ -40,15 +40,14 @@ const About = () => {
               progress day-by-day. I chose this path because of opportunities
               that programming gives to us - building your own stuff and have
               real impact on user-experience and the way that we want to show
-              something to others. In the future I want to make people say "wow,
-              very nice piece of work" on my projects.
+              something to others.
             </p>
             <p className="text-zinc-400 text-xl">
               On a personal level I'm disciplined and self-driven to constant
-              growth and development. In my free time I like to play computer
-              games (mainly RPG and FPS genres) and doing sports - have been
-              training football since 12 and occassionally plays squash. Lords
-              of the Rings and coffee enjoyer.
+              growth and development. In my free time apart of programming I
+              like to play computer games (mainly RPG and FPS genres) and doing
+              sports - have been training football since 12 and occassionally
+              plays squash. Lords of the Rings and coffee enjoyer.
             </p>
           </div>
           <div className="text-left w-full">

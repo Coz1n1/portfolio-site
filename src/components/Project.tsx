@@ -30,7 +30,7 @@ const Project: FC<ProjectProps> = ({ data }) => {
       ref={ref}
     >
       <div
-        className={`flex flex-col lg:w-[350px] xl:w-[400px] ${
+        className={`flex flex-col lg:w-[430px] xl:w-[420px] ${
           isInView
             ? "transition-all duration-500 translate-x-0 opacity-100"
             : "-translate-x-[500px] opacity-0"
@@ -40,14 +40,17 @@ const Project: FC<ProjectProps> = ({ data }) => {
           {data.title}
         </span>
         <span className="text-zinc-500 text-lg mb-2">{data.description}</span>
+        <span className="mb-2 text-slate-800 font-bold">{data.bonusInfo}</span>
         <div className="flex flex-row flex-wrap gap-4 mb-6">
           {data.technologies.map((tech) => (
-            <span className="font-bold">{tech}</span>
+            <span className="font-bold bg-slate-800 text-white px-2 py-1 rounded-md">
+              {tech}
+            </span>
           ))}
         </div>
         <div className="flex flex-row gap-4">
           <a href={data.live} target="#blank">
-            <button className=" bg-emerald-500 text-white py-2 px-4 font-bold transition-all duration-200 hover:scale-125 hover:rotate-6">
+            <button className=" bg-emerald-500 text-white py-2 px-4 font-bold transition-all duration-200 hover:scale-125 hover:rotate-6 rounded-md">
               See live
             </button>
           </a>
@@ -59,23 +62,20 @@ const Project: FC<ProjectProps> = ({ data }) => {
         </div>
       </div>
       <div
-        className={`lg:w-[620px] xl:w-[800px] flex items-center justify-center h-full cursor-pointer ${
+        className={`lg:w-[680px] xl:w-[800px] flex items-center justify-center h-full cursor-pointer ${
           isInView
             ? "transition-all duration-500 translate-x-0 opacity-100"
             : "translate-x-[500px] opacity-0"
         }`}
       >
         <div className="w-full h-full flex items-center justify-center py-4">
-          <img
-            src={data.imgs[currentIndex]}
-            alt=""
-            className="w-full rounded-lg shadow-xl transition-all"
-          />
-          {/* <img
-            src={data.imgs[1]}
-            alt=""
-            className="absolute left-0 bottom-4 w-full border-b-8 border-slate-800 rounded-bl-lg rounded-br-lg"
-          /> */}
+          <a href={data.live} target="#blank">
+            <img
+              src={data.imgs[currentIndex]}
+              alt=""
+              className="w-full rounded-lg transition-all shadow-lg shadow-zinc-500"
+            />
+          </a>
         </div>
       </div>
     </div>

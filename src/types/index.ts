@@ -5,5 +5,6 @@ export type ProjectType = {
   technologies: string[];
   live: string;
   github: string;
+  bonusInfo?: string;
   imgs: string[];
 };
