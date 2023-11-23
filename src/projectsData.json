@@ -20,13 +20,14 @@
   {
     "id": 3,
     "title": "Good Notes",
-    "description": "This is a fullstack application in which you can store daily notes in user's personal database. We can mark every note as completed and than restore it when for example we forgot to do something from it. The left panel is resizable after holding the orange line (my favourite future in it) or you can completely collapse it after clicking button in the top right corner.",
+    "description": "This is a fullstack application in which you can store daily notes in user's personal database. We can edit our note or mark every of it as completed and than restore it when for example we forgot to do something from it. The left panel is resizable after holding the orange line (my favourite future in it) or you can completely collapse it after clicking button in the top right corner.",
     "technologies": [
       "React",
       "TypeScript",
       "Tailwind",
       "Express.js",
-      "shadcn/ui"
+      "shadcn/ui",
+      "PostgreSQL"
     ],
     "live": "https://notes-app-jt9p.vercel.app/",
     "github": "https://github.com/Coz1n1/notes-app",
