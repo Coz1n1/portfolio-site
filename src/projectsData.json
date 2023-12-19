@@ -10,12 +10,20 @@
   },
   {
     "id": 2,
-    "title": "Coinpack",
-    "description": "If I remember correctly it was one of my first application with adding typescript to my react application and because of that I had to solve first problems related to this - in the end it was very good expierence and I've been using typescript since then. App is using coinstats api to deliver required data about cryptocurrencies and shows us the most popular ones. We can filter them by name (with small letters) and set the size of data ammount that we want to see. The contact component is also connected with emailjs.",
-    "technologies": ["React", "TypeScript", "CSS", "API", "Emailjs"],
-    "live": "https://profound-cendol-530796.netlify.app/",
-    "github": "https://github.com/Coz1n1/coin-pack",
-    "imgs": ["/imgs/apps-previews/coinpack/coinpack-first.png"]
+    "title": "JobSearcher",
+    "description": "Do you want to hire yourself in virtual company? This application is for you. There are two sites: jobseeker and recruiter. As a jobseeker you can search, filter and apply for a recruiter's job offers when while as recruiter you can publish offers for your needs and check candidates applications (evetually contact them ;))",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "shadcn/ui",
+      "framer-motion",
+      "Express.js",
+      "PostgreSQL"
+    ],
+    "live": "https://job-searcher-iota.vercel.app/",
+    "github": "https://github.com/Coz1n1/job-searcher",
+    "imgs": ["/imgs/apps-previews/jobsearcher/jobsearcher-first.png"]
   },
   {
     "id": 3,
@@ -36,6 +44,15 @@
   },
   {
     "id": 4,
+    "title": "Coinpack",
+    "description": "If I remember correctly it was one of my first application with adding typescript to my react application and because of that I had to solve first problems related to this - in the end it was very good expierence and I've been using typescript since then. App is using coinstats api to deliver required data about cryptocurrencies and shows us the most popular ones. We can filter them by name (with small letters) and set the size of data ammount that we want to see. The contact component is also connected with emailjs.",
+    "technologies": ["React", "TypeScript", "CSS", "API", "Emailjs"],
+    "live": "https://profound-cendol-530796.netlify.app/",
+    "github": "https://github.com/Coz1n1/coin-pack",
+    "imgs": ["/imgs/apps-previews/coinpack/coinpack-first.png"]
+  },
+  {
+    "id": 5,
     "title": "CarsStack",
     "description": "It's one of my first projects that I published to github. It's the landing page of car rental site with contact form which is connected with emailjs.",
     "technologies": ["React", "CSS", "Emailjs"],
@@ -44,7 +61,7 @@
     "imgs": ["/imgs/apps-previews/carstack/carstack-first.png"]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "WeatherMapper",
     "description": "Simple application using weather API. Type name of the city = get actual weather.",
     "technologies": ["React", "TypeScript", "Tailwind", "API"],
